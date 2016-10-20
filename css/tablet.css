@@ -1,0 +1,174 @@
+*
+{
+  background-color:black;
+  color:white;
+  font-family:"MS ゴシック",sans-serif;
+}
+
+/* メニューバー関係 */
+#menu1
+{
+  background-color:black;
+}
+#menu1 .parent_menu
+{
+  display:table-cell;
+}
+#menu1 .parent_menu img
+{
+  width:100%;
+}
+.child_menu
+{
+  display:none;
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+.child_menu
+{
+  width:25%;
+}
+#game_menu1:hover > .child_menu
+{
+  display:block;
+  position:absolute;
+}
+#others_menu1:hover > .child_menu
+{
+  display:block;
+  position:absolute;
+}
+.fixed
+{
+  position:fixed;
+  top:0;
+}
+
+/* ゲームの詳細画面等 */
+.detail_btn
+{
+  display:block;
+  background:#717171;
+  color:#eeeeee;
+  width:170px;
+  height:50px;
+  margin-top:7%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 35px;
+  padding:5px 0 5px 10px;
+  cursor: pointer;
+  border-radius:10px;
+}
+.close_btn
+{
+  background: #eeeeee;
+  color: #717171;
+  width: 70px;
+  margin: auto;
+  text-align: center;
+  font-size: 15px;
+  padding:5px 0 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.game_details
+{
+  display:none;
+  width:100%;
+  height:100%;
+  text-align:center;
+  position:fixed;
+  top:0;
+  z-index:100;
+  background:rgba(0,0,0,0.7);
+}
+.game_details h2
+{
+  font-size:90px;
+}
+.game_details p
+{
+  text-align:center;
+  font-size:190%;
+  width:80%;
+  padding-left:10%;
+  padding-right:10%;
+}
+
+/* コンテンツ共通 */
+.contents
+{
+}
+.contents h1
+{
+  font-style:italic;
+  text-align:center;
+  font-size:50px;
+}
+.contents .main
+{
+  font-family:"MS ゴシック",sans-serif;
+  text-align:center;
+  width:70%;
+  margin-left: 15%;
+  margin-right:15%;
+  font-size:220%;
+}
+
+/* スタッフ周りの調整 */
+#staff h2
+{
+  text-align:center;
+  font-size:220%;
+}
+#staff ul
+{
+  padding:10% 30%;
+  font-size:190%;
+}
+
+/* 書くそれぞれの要素詳しく */
+#home
+{
+  padding-top:20%;
+  margin-bottom:40%;
+}
+#intro
+{
+  padding-top:20%;
+  margin-bottom:30%;
+}
+#BJ
+{
+  padding-top:35%;
+  margin-bottom:60%;
+}
+#poker
+{
+  padding-top:35%;
+  margin-bottom:60%;
+}
+#roullete
+{
+  padding-top:35%;
+  margin-bottom:60%;
+}
+#near9
+{
+  padding-top:35%;
+  margin-bottom:60%;
+}
+#access
+{
+  padding-top:35%;
+  margin-bottom:60%;
+}
+
+footer
+{
+  position:fixed;
+  position:absolute;
+}
