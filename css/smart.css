@@ -6,6 +6,10 @@
 }
 
 /* メニューバー関係 */
+.title_img img
+{
+  width: 100%;
+}
 #menu1
 {
   background-color:black;
