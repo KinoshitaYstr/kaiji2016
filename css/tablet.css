@@ -6,22 +6,26 @@
 }
 
 /* メニューバー関係 */
+
 #menu1
 {
   background-color:black;
+  z-index: 100;
 }
-#menu1 .parent_menu
+.parent_menu
 {
-  display:table-cell;
+  display: table-cell;
 }
-#menu1 .parent_menu img
+.parent_menu img
 {
-  width:100%;
+  width:50%;
+  margin: 0px 70px;
+  z-index: 100;
 }
 .child_menu
 {
   display:none;
-  margin:0;
+  margin:auto;
   padding:0;
   list-style:none;
 }
@@ -87,12 +91,12 @@
 }
 .game_details h2
 {
-  font-size:90px;
+  font-size:50px;
 }
 .game_details p
 {
   text-align:center;
-  font-size:190%;
+  font-size:155%;
   width:80%;
   padding-left:10%;
   padding-right:10%;
@@ -102,64 +106,78 @@
 .contents
 {
 }
+.contents img
+{
+  position: absolute;
+  left: 50%;
+  margin-left: -400px;
+  width:60%;
+  z-index: 0;
+}
 .contents h1
 {
   font-style:italic;
   text-align:center;
-  font-size:50px;
+  font-size:30px;
 }
 .contents .main
 {
+  color: chartreuse;
   font-family:"MS ゴシック",sans-serif;
   text-align:center;
   width:70%;
   margin-left: 15%;
   margin-right:15%;
-  font-size:220%;
+  font-size:150%;
 }
 
 /* スタッフ周りの調整 */
+#staff h1
+{
+  font-size: 230%;
+  margin-top: 100px;
+}
 #staff h2
 {
   text-align:center;
-  font-size:220%;
+  font-size:200%;
 }
 #staff ul
 {
-  padding:10% 30%;
-  font-size:190%;
+  padding:0% 40%;
+  font-size:150%;
 }
 
 /* 書くそれぞれの要素詳しく */
 #home
 {
-  padding-top:20%;
-  margin-bottom:40%;
+  padding-top:10%;
+  margin-bottom:0%;
 }
 #intro
 {
-  padding-top:20%;
-  margin-bottom:30%;
+  padding-top:10%;
+  margin-bottom:0%;
 }
 #BJ
 {
-  padding-top:35%;
-  margin-bottom:60%;
+  padding-top:10%;
+  margin-bottom:0%;
 }
 #poker
 {
-  padding-top:35%;
-  margin-bottom:60%;
+  padding-top:10%;
+  margin-bottom:0%;
 }
 #roullete
 {
-  padding-top:35%;
-  margin-bottom:60%;
+  padding-top:10%;
+  margin-bottom:0%;
 }
 #near9
 {
-  padding-top:35%;
-  margin-bottom:60%;
+  padding-top:10%;
+  margin-bottom:0%;
 }
 #access
 {
